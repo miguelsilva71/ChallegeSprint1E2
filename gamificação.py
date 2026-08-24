@@ -1,6 +1,6 @@
 # Sistema de Gamificação Sustentável SoulUp com Avatar
 
-# Requisito: Estrutura de Dados (Lista e Tupla)
+
 acoes = ("Reciclagem", "Transporte Público ", "Economia de Energia", "Economia de Água", "Bicicleta",
          "Plantio de Árvore", "Banho Rápido")
 
@@ -164,9 +164,8 @@ def sugestao_avatar():
             f"Avatar: Parabéns pelo nível {nivel}! Continue acumulando pontos para desbloquear recompensas avançadas.")
 
 
-# --- NOVA FUNÇÃO PARA O RANKING ---
+
 def ver_ranking():
-    # Cria a lista com os competidores da imagem e adiciona a sua pontuação atualizada
     competidores = [
         {"nome": "Ana", "pontos": 350},
         {"nome": "Carlos", "pontos": 280},
@@ -175,7 +174,7 @@ def ver_ranking():
         {"nome": "Pedro", "pontos": 120}
     ]
 
-    # Ordena a lista com base nos pontos, do maior para o menor
+
     competidores_ordenados = sorted(competidores, key=lambda x: x['pontos'], reverse=True)
 
     print("\n==============================")
